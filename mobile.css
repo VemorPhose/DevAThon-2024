@@ -1,0 +1,194 @@
+/* * {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+} */
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("img/background_img.jpeg");
+    background-size: cover;
+    background-position: center left;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(35, 35, 35, 0.65);
+    padding: 1%;
+}
+
+#logo {
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 55px;
+}
+
+#logoDiv {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#headerText {
+    color: goldenrod;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    min-height: 500px;
+}
+
+.signIn {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border-style: solid;
+    padding: 20px;
+    color: goldenrod;
+    font-weight: 300;
+    min-height: 100%;
+    margin: 2%;
+    width: 100%;
+}
+
+#signInText {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    border-style: solid;
+    border: none;
+    border-bottom: 2px solid white;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    font-weight: 900;
+}
+
+#loginButton {
+    align-items: center;
+    padding: 10px;
+}
+
+#login {
+    background-color: rgba(0, 0, 0, 0);
+    color: goldenrod;
+    font-size: 16px;
+    font-weight: 750;
+    padding: 10px 50px;
+    border: 4px solid goldenrod;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#login:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+#formLinks {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#loginButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.promoTextDiv {
+    max-width: 90%;
+    margin: 2%;
+    padding: 1%;
+    min-width: 270px;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+h2 {
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.promo {
+    width: 40px;
+    border: none;
+    margin: 2px;
+    transition-duration: 0.3s;
+}
+
+.promo:hover {
+    filter: invert(1);
+}
+
+#promoButtons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: rgba(35, 35, 35, 0.65);
+}
+
+#comet {
+    height: 32px;
+}
+
+#register {
+    color: white;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
